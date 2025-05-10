@@ -30,39 +30,10 @@ public class CapitalizeFirstLetter {
         String outputString = capitalizeFirstLetterOfEachWord(inputString);
         System.out.println("Original string: " + inputString);
         System.out.println("Modified string: " + outputString);
-    }
 
-    public static class StringOccurrenceCounter {
-
-        public static Map<String, Integer> countStringOccurrences(String input) {
-            if (input == null) {
-                throw new IllegalArgumentException("Input string cannot be null.");
-            }
-
-            Map<String, Integer> map = new HashMap<>();
-            String[] words = input.split("\\s+"); // Split by spaces
-
-            for (String word : words) {
-                map.put(word, map.getOrDefault(word, 0) + 1);
-            }
-
-            return map;
-        }
-
-        public static void main(String[] args) {
-            String text = "This is a string with several words and some repeated words like string and is";
-            Map<String, Integer> counts = countStringOccurrences(text);
-
-            for (Map.Entry<String, Integer> entry : counts.entrySet()) {
-                System.out.println("String: \"" + entry.getKey() + "\", Count: " + entry.getValue());
-            }
-
-            //count repeated characters in a string
-            String string = "This is a sample String";
-            long count = string.chars().filter(n -> n == 's').count();
-            System.out.println("Count of characters = " + count);
-
-
-        }
+        //reverse and capitalize first letter
+        StringBuilder strBuild = new StringBuilder(inputString);
+        String outputRev = capitalizeFirstLetterOfEachWord(strBuild.reverse().toString());
+        System.out.println("Reversed capitalized string: " + outputRev);
     }
 }

@@ -17,7 +17,7 @@ public class Main {
         //Sum of square integers
         List<Integer> numbrs = Arrays.asList(1, 2, 3, 4, 5);
         int sumOfSquare = numbrs.stream().map(n -> n * n).reduce(0, Integer::sum);
-        System.out.println("\n" + sumOfSquare);
+        System.out.println("\nSum of square is : " + sumOfSquare);
 
         //first element matches a condition
         List<String> words = Arrays.asList("apple", "banana", "orange");

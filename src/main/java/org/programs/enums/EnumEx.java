@@ -41,4 +41,3 @@ public class EnumEx {
         System.out.println("strObj = " + strObj);
     }
 }
-

@@ -8,7 +8,7 @@ import java.util.List;
 public class PersonMain {
     public static void main(String[] s) {
         List<Persons> persons = Arrays.asList(new Persons("mani", 41),
-                new Persons("sana", 7), new Persons("kani", 1)
+                new Persons("vimal", 7), new Persons("ashok", 1)
         );
         double avg = persons.stream().mapToInt(Persons::getAge).average().orElse(0);
         DecimalFormat df = new DecimalFormat("0.00");

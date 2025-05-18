@@ -6,7 +6,7 @@ import java.util.StringJoiner;
 
 public class JoinerEx {
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("mani", "kani", "sana");
+        List<String> words = Arrays.asList("Honey", "Curd", "Butter");
         StringJoiner stringJoiner = new StringJoiner(",", "[", "]");
         for (String s : words) {
             stringJoiner.add(s);

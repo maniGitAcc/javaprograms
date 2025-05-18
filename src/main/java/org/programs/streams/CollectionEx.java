@@ -35,7 +35,7 @@ public class CollectionEx {
         boolean len = Stream.of("one", "two", "three").anyMatch(n -> n.length() > 5);
         System.out.println(len);
 
-        List<String> names = Arrays.asList("mani", "sana", "kani");
+        List<String> names = Arrays.asList("bus", "car", "van");
         names.stream().forEach(n -> System.out.println(n.toUpperCase(Locale.ROOT)));
 
         List<Integer> numbers = Arrays.asList(5, 4, 3, 2);

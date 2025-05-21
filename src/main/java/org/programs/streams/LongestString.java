@@ -1,5 +1,6 @@
 package org.programs.streams;
 
+import java.math.BigInteger;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -15,5 +16,6 @@ public class LongestString {
         String large = strings.stream().max((x, y) -> Integer.compare(x.length(), y.length())).orElse("none");
         System.out.println("Longest fruit in the list is : " + large + ", its length is : " + large.length());
 
+        BigInteger big = new BigInteger(String.valueOf(123));
     }
 }

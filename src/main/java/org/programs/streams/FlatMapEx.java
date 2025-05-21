@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class FlatMapEx {
     public static void main(String[] a) {
-        System.out.println("Map");
+        System.out.println("Use stream map to collect each element's length..");
         List<String> fruits = Arrays.asList("mango", "banana", "pear");
         List<Integer> length =
                 fruits.stream().map(String::length).collect(Collectors.toList());

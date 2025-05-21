@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        List<Integer> integerList = Arrays.asList(1, 22, 3, 4, 5);
-        System.out.println(Collections.max(integerList));
+        List<Integer> integers = Arrays.asList(1, 22, 3, 4, 5);
+        System.out.println(Collections.max(integers));
         //Find even numbers in list
         List<Integer> numbers = Arrays.asList(1, 3, 4, 5, 6);
         List<Integer> evenList =

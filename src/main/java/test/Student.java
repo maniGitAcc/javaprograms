@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 class StudentInfo {
@@ -17,7 +18,7 @@ class StudentInfo {
 
         Student secHigh = students.stream().sorted(Comparator.comparing(Student::getMarks).reversed())
                 .skip(1).findFirst().orElse(null);
-        System.out.println(secHigh);
+        System.out.println("Second Highest mark student is : " + secHigh);
         //no of student in each dept
         Map<String, Long> studMap = students.stream().collect(Collectors.groupingBy(Student::getDept, Collectors.counting()));
         for (Map.Entry<String, Long> entry : studMap.entrySet()) {
@@ -25,6 +26,7 @@ class StudentInfo {
         }
     }
 }
+
 public class Student {
     //name, id, dept, marks
     // find student has second highest mark
@@ -80,6 +82,7 @@ public class Student {
                 ", marks=" + marks +
                 '}';
     }
+
     private String dept;
     private int marks;
 }

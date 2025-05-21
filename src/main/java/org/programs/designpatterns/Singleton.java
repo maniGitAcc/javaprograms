@@ -5,17 +5,19 @@ public class Singleton {
 
     private Singleton() {
     }
-    public static Singleton getInstance() {
+
+    //synchronized keyword added for thread safety
+    public static synchronized Singleton getInstance() {
         if (inst == null) {
             inst = new Singleton();
         }
         return inst;
     }
 
-    public static void main(String[] ar){
+    public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
         Singleton singleton1 = Singleton.getInstance();
-        if(singleton == singleton1){
+        if (singleton == singleton1) {
             System.out.println("same object returned, no instances created..");
         }
     }

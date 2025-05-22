@@ -1,0 +1,20 @@
+Name few annotations that you use in springboot?
+What is the difference between spring and springboot?
+Why you need to go for springboot application?
+How do you handle exceptions in springboot application?
+What is the difference between IOC and dependency injection in spring?
+What is spring actuator?
+
+How do you monitor your microservices?
+How do you call your backend microservice from your frontend application?
+What is API proxy framework?
+How do you implement security mechanism while building your microservices?
+How do you monitor your microservices?
+What are the problems in maintaining microservices?
+Explain partitioning in apache Kafka.
+How do you securly transfer your messages through kafka?
+What is the difference between monolithic and microservice based application? When do you go for microservice based application?
+How do you implement performance improvement in microservice base application?
+How will you handle interprocess communication between microservices? 
+How do you build synchronous rest api?
+What are different HTTP Status codes?

@@ -1,0 +1,5 @@
+How do you automate your deployment?
+Explain the deployment pipeline used in your application.
+What is github hooks?
+Explain CICD pipeline.
+Explain Kubernetes components and deployment steps with configuration in detail.

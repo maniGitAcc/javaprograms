@@ -1,0 +1,4 @@
+When do you go for SQL based or Non-SQL database?
+Explain the functioning of mongoDB.
+What is Clustered and Non-clustered Index.
+What is the difference between INNER JOIN and OUTER JOIN.

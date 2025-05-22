@@ -1,11 +1,11 @@
-Name few features of Java 17?
-
+Name few features of Java 8, java 11, java 17?
 What is functional Interface?
-
 How will you write custom Annotation?
-
 Explain streams API and its operation?
-
 Explain linked list implmentation.
-
 What is Optional? Difference between optional.of() and optional.ofNullable()?
+How will you implement multi-threading in java? Explain Executor service.
+what are default methods in interfaces, why it is needed? how did it solved before java8?
+Explain OOPS principles.
+What are all the design pattern? Explain in detail.
+How do you implement a matrix multiplication.

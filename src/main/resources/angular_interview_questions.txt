@@ -1,0 +1,7 @@
+How do you communicate between parent and child components?
+What are templates?
+What is Observables?
+Explain the life cycle of angular.
+Explain bean scopes.
+What are the core components of Angular?
+What is a directive and usage with some example?

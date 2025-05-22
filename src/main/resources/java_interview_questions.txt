@@ -1,6 +1,11 @@
-1. Name few features of Java 17?
-2. What is functional Interface?
-3. How will you write custom Annotation?
-4. Explain streams API and its operation?
-5. Explain linked list implmentation.
-6. What is Optional? Difference between optional.of() and optional.ofNullable()
+Name few features of Java 17?
+
+What is functional Interface?
+
+How will you write custom Annotation?
+
+Explain streams API and its operation?
+
+Explain linked list implmentation.
+
+What is Optional? Difference between optional.of() and optional.ofNullable()?
